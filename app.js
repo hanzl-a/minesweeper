@@ -181,5 +181,12 @@ document.addEventListener('DOMContentLoaded', ()=>{
         })
     }
 
+    const btn = document.querySelector('#reset-btn button')
+
+    btn.onclick = ()=>{
+        location.reload();
+        console.log('reload');
+    }
+
 })
 

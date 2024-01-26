@@ -185,7 +185,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     btn.onclick = ()=>{
         location.reload();
-        console.log('reload');
     }
 
 })
